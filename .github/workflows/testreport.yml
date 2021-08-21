@@ -7,7 +7,7 @@ name: Generate Test Report
 on: [push, workflow_dispatch]
 
 env:
-  parent_repo: 'pisan142/assignment2-tests'
+  parent_repo: 'pisan142/assignment3-tests'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
