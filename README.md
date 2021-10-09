@@ -32,6 +32,17 @@ If you have not already, create a directory where you will store all your files 
 5. Check for test results, errors, and suggestions in "Actions" tab in your browser ![image](https://user-images.githubusercontent.com/54456351/122830040-a0d55a00-d29c-11eb-8e7f-a73c1a56546d.png)
 6. Repeat step 3 and 4 until the assignment is completed and all tests are passed and all code style suggestions are implemented. There are four methods that you have to modify
 
+## Output Examples
+
+### arrow(5)
+```..*..
+.***.
+*****
+..*..
+..*..
+..*..
+..*..
+..*..```
 
 When committing, GitHub will ask you to enter a commit message. It helps to easily understand why a change has been made to a file at a particular time and distinguish between each commission.<br>
 ![image](https://user-images.githubusercontent.com/54456351/119812799-66df8680-be9d-11eb-8fec-24645619be13.png)
