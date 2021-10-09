@@ -8,15 +8,15 @@
 public class Main {
 
   /**
-   * This method prints out number of *
+   * This method prints out number of stars (*).
    * @param number number of stars needed to print out
    */
   public static void printStar(int number) {}
 
- /**
-  * This method prints out number of .
-  * @param number number of dot needed to print out
-  */
+  /**
+   * This method prints out number of dots (.).
+   * @param number number of dot needed to print out
+   */
   public static void printDot(int number) {}
 
   /**
@@ -58,7 +58,7 @@ public class Main {
     ...*...
     ...*...
     ...*...
-   * @param size: the width of the arrow
+   * @param size the width of the arrow
    */
   public static void arrow(int size) {
     // we can only do odd size arrows
@@ -68,7 +68,7 @@ public class Main {
   }
 
   /**
-   * This is the main method; you can modify it for testing
+   * This is the main method; you can modify it for testing.
    */
   public static void main(String[] args) {
     arrow(9);
