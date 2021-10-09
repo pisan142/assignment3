@@ -35,14 +35,16 @@ If you have not already, create a directory where you will store all your files 
 ## Output Examples
 
 ### arrow(5)
-```..*..
+```
+..*..
 .***.
 *****
 ..*..
 ..*..
 ..*..
 ..*..
-..*..```
+..*..
+```
 
 When committing, GitHub will ask you to enter a commit message. It helps to easily understand why a change has been made to a file at a particular time and distinguish between each commission.<br>
 ![image](https://user-images.githubusercontent.com/54456351/119812799-66df8680-be9d-11eb-8fec-24645619be13.png)
