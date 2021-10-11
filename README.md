@@ -122,8 +122,6 @@ If you have any compilation errors, CheckStyle report will not be generated. Ple
 ### If you don't see your warnings on the website, please fill this survey so that we can add them: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1M4lW8zU0gfX2b0JHl3O0-vluhYhtCcvS2Ox0z3LDCwWEHg/viewform">New CheckStyle Warning</a> 
 
 <br><br>
-## Misspell
-Click "misspell" to view found mispellings.
 
 ## JUnit Report
 Scroll to the bottom and download the artifact to view your detailed test report. <br>
