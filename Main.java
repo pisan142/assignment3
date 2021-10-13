@@ -42,7 +42,10 @@ public class Main {
     ...*...
    * @param size the width of the arrow
    */
-  public static void arrowTrunk(int size) {}
+  public static void arrowTrunk(int size) {
+    // star = (size - 1) / 4;
+    // dot = (size - star) / 2;
+  }
 
   /**
    * This method prints out the whole of the arrow like:
