@@ -1,50 +1,74 @@
+/**
+ * Write a description of class UpArrow here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
 public class Main {
 
+  /**
+   * This method prints out number of stars (*).
+   * @param number number of stars needed to print out
+   */
+  public static void printStar(int number) {}
+
+  /**
+   * This method prints out number of dots (.).
+   * @param number number of dot needed to print out
+   */
+  public static void printDot(int number) {}
+
+  /**
+   * This method prints out the head of the arrow. 
+   * This is an example of head of arrow with size 7
+    ...*...
+    ..***..
+    .*****.
+    *******
+   * @param size the width of the arrow
+   */
+  public static void arrowHead(int size) {}
+
+  /**
+   * This method prints out the trunk of the arrow.
+   * This is an example of trunk of arrow with size 7
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+   * @param size the width of the arrow
+   */
+  public static void arrowTrunk(int size) {}
+
+  /**
+   * This method prints out the whole of the arrow like:
+   * This is an example of the arrow with size 7
+    ...*...
+    ..***..
+    .*****.
+    *******
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+    ...*...
+   * @param size the width of the arrow
+   */
   public static void arrow(int size) {
-    int dots = (size / 2);
-    int stars = 1;
-
-    if (size % 2 == 1) {
-      arrowHead(size, dots, stars);
-      arrowTrunk(size, dots, stars);
-    }
-  }
- 
-  public static void arrowHead(int size, int dots, int stars) {
-    for (int a = 0; a < (size / 2 + 1); a++) {
-      for (int b = 0; b < dots; b++) {
-        System.out.print(".");
-      }
-      for (int j = 0; j < stars; j++) {
-        System.out.print("*");
-      }
-      for (int b = 0; b < dots; b++) {
-        System.out.print(".");
-      }
-      stars = stars + 2;
-      dots--;
-      System.out.println();
-    }
-  }
-  
-  public static void arrowTrunk(int size, int dots, int stars) {
-    stars = (size - 1) / 4;
-    dots = (size - stars) / 2;
-    for (int a = 1; a <= size; a++) {
-      for (int b = 0; b < dots; b++) {
-        System.out.print(".");
-      }
-      for (int c = 0; c < stars; c++) {
-        System.out.print("*");
-      } 
-      for (int b = 0; b < dots; b++) {
-        System.out.print(".");
-      }
-      System.out.println();
-    }
+    // we can only do odd size arrows
+    assert (size % 2 == 1);
+    arrowHead(size);
+    arrowTrunk(size);
   }
 
- 
+  /**
+   * This is the main method; you can modify it for testing.
+   */
   public static void main(String[] args) {
     arrow(9);
     arrow(15);
